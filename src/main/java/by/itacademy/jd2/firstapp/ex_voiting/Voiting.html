@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Voiting</title>
+</head>
+<body>
+
+<form action="http://localhost:8080/firstapp-1.2.1-SNAPSHOT/vote" method="post">
+    <p>Кто по вашему лучший исполнитель?</p>
+    <input type="radio" name="artist" value="Iron Maiden"> Iron Maiden
+    <input type="radio" name="artist" value="Metallica"> Metallica
+    <input type="radio" name="artist" value="Slayer"> Slayer
+    <input type="radio" name="artist" value="Megadeth"> Megadeth
+
+
+    <p>Какие ваши любимые жанры? Выберите минимум от 3 до 5 вариантов</p>
+    <input type="checkbox" name="genre" value="rock music"> Рок-музыка <br>
+    <input type="checkbox" name="genre" value="country music"> Кантри <br>
+    <input type="checkbox" name="genre" value="jazz"> Джаз <br>
+    <input type="checkbox" name="genre" value="pop music"> Поп-музыка <br>
+    <input type="checkbox" name="genre" value="blues"> Блюз <br>
+    <input type="checkbox" name="genre" value="hip hop"> Хип-хоп <br>
+    <input type="checkbox" name="genre" value="electronic music"> Электронная музыка <br>
+    <input type="checkbox" name="genre" value="chanson"> Шансон <br>
+    <input type="checkbox" name="genre" value="reggae"> Регги <br>
+    <input type="checkbox" name="genre" value="funk"> Фанк <br>
+
+    <p>Напишите немного о себе</p>
+    <input type="text" name="aboutMyself"><br>
+    <input type="submit" value="Отправить">
+</form>
+
+
+
+</body>
+</html>
