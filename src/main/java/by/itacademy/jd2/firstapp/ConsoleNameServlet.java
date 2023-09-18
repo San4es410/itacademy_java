@@ -22,7 +22,6 @@ public class ConsoleNameServlet extends HttpServlet {
         String secondName = req.getParameter("secondname");
 
 
-
         PrintWriter writer = resp.getWriter();
         writer.write("Hello " + secondName + " " + firstName);
     }

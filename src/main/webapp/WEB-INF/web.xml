@@ -18,4 +18,14 @@
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>VoiteServlet</servlet-name>
+        <servlet-class>by.itacademy.jd2.firstapp.ex_voiting.VoitingServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>VoiteServlet</servlet-name>
+        <url-pattern>/vote</url-pattern>
+    </servlet-mapping>
+
 </web-app>

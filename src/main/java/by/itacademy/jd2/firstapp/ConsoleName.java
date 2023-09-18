@@ -12,7 +12,7 @@ public class ConsoleName  {
     public static void main(String[] args)  {
 
         try {
-            URL url = new URL("http://localhost:8080/firstapp/hello_with_name");
+            URL url = new URL("http://localhost:8080/firstapp-1.2.1-SNAPSHOT/hello_with_name");
 
             Scanner scannerReq = new Scanner(System.in);
             System.out.println("Введите имя");
@@ -20,7 +20,7 @@ public class ConsoleName  {
             System.out.println("Введите фамилию");
             String secondname = scannerReq.nextLine();
 
-             url = new URLBuilder("http://localhost:8080/firstapp/hello_with_name")
+             url = new URLBuilder("http://localhost:8080/firstapp-1.2.1-SNAPSHOT/hello_with_name")
                     .withParam("firstname", firstname)
                     .withParam("secondname", secondname)
                     .build();
